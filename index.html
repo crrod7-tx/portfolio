@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher R. Rodriguez | IT Portfolio</title>
+    <!-- Bootstrap CSS for Modern, Responsive Layout -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; }
+        .hero { background: linear-gradient(135deg, #0a2540 0%, #1e3a8a 100%); color: white; padding: 60px 0; border-bottom: 5px solid #64748b; }
+        .navbar { background-color: #0a2540 !important; }
+        .card { border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 25px; }
+        .badge-custom { background-color: #475569; color: white; font-size: 0.9rem; padding: 8px 12px; margin: 3px; display: inline-block; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <!-- STICKY NAVIGATION HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">CR Personal Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-expand navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#profile">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#artifacts">Technical Artifacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN PAGE: HERO SECTION & DISTINGUISHABLE ATTRIBUTES -->
+    <header id="home" class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Christopher R. Rodriguez</h1>
+            <p class="lead text-light">IT Support Specialist & Systems Administration Candidate</p>
+            <div class="my-4">
+                <span class="badge-custom">USMC Veteran (Clearable)</span>
+                <span class="badge-custom">BSIT Graduate (Expected Aug 2026)</span>
+                <span class="badge-custom">CompTIA Security+ Candidate</span>
+                <span class="badge-custom">ServiceNow / ITSM Tier 2 Batline Resource</span>
+            </div>
+            <!-- LINK TO LINKEDIN ACCOUNT -->
+            <a href="https://linkedin.com" target="_blank" class="btn btn-outline-light btn-lg mt-2">Connect on LinkedIn</a>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <!-- EMBEDDED ELEVATOR PITCH MEDIA -->
+        <section class="card p-4 text-center bg-white">
+            <h3 class="fw-bold mb-3">30-Second Professional Introduction</h3>
+            <div class="d-flex justify-content-center my-3">
+                <!-- Replace 'elevator_pitch.mp3' with your actual uploaded audio file name -->
+                <audio controls class="w-75">
+                    <source src="elevator_pitch.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p class="fst-italic text-muted px-4">"Hi, I’m Christopher Rodriguez. As a Marine Corps Veteran and an incoming BSIT graduate, I thrive on solving complex technical puzzles..."</p>
+        </section>
+
+        <!-- ADDITIONAL PAGE CONTENT: SECURE DOCUMENTS -->
+        <section id="profile" class="row my-5">
+            <div class="col-md-6">
+                <div class="card p-4 h-100 bg-white">
+                    <h3 class="fw-bold border-bottom pb-2 text-primary">Targeted Cover Letter</h3>
+                    <p class="text-muted small">Targeted Position: ServiceNow Help Desk Support</p>
+                    <p><strong>To the Hiring Team,</strong></p>
+                    <p class="small">As a former U.S. Marine Corps Sergeant and current BSIT candidate at South University, I am eager to apply for the ServiceNow Help Desk Support position. My background combines mission-critical technical leadership with over a decade of field experience, making me uniquely qualified to support sensitive enterprise environments for your government and defense clients...</p>
+                    <p class="small">In my current role at Safelite, I manage sensitive PII while navigating complex proprietary databases, all while exceeding strict SLA metrics. I am prepared to leverage these skills in a fully remote capacity... Additionally, as I previously held a Secret Clearance, I am fully prepared to undergo the reinvestigation process immediately.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card p-4 h-100 bg-white">
+                    <h3 class="fw-bold border-bottom pb-2 text-primary">Secure Professional Résumé</h3>
+                    <p class="text-muted small">Contact Data Redacted for Privacy Regulations (Garland, TX Area)</p>
+                    <h5 class="fw-bold text-secondary mb-1">Professional Summary</h5>
+                    <p class="small text-muted">Motivated IT professional and USMC Veteran with over 10 years of experience in technical field operations. Completing a BS in Information Technology (August 2026) and actively pursuing CompTIA Security+ to meet DoD 8570 compliance. Clearable: Previously held and maintained a Secret Security Clearance.</p>
+                    <h5 class="fw-bold text-secondary mb-1">Experience Highlights</h5>
+                    <ul>
+                        <li class="small"><strong>Safelite Solutions (Jan 2024 – Present):</strong> Selected to man internal "Batline" technical queue. Troubleshoot database anomalies, bypass corrupted files, and ensure strict SLA compliance.</li>
+                        <li class="small"><strong>AT&T Premises Technician (2015 – 2021):</strong> Diagnosed infrastructure loops, managed Fiber/Copper Layer 1 network interfaces.</li>
+                        <li class="small"><strong>USMC Sergeant; Field Radio Chief (2007 – 2011):</strong> Held Secret Clearance; managed full cryptographic loading keys and secure Command Operations workflows.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ADDITIONAL PAGE CONTENT: PORTFOLIO ARTIFACTS MATERIALS -->
+        <section id="artifacts" class="my-5">
+            <h2 class="fw-bold mb-4 text-center">Academic Evidence & High-Stakes Assignments</h2>
+            
+            <div class="card p-4 bg-white">
+                <h4 class="fw-bold text-dark">Artifact 1: Enterprise Network Architecture (ITS2103)</h4>
+                <p class="text-muted small fw-semibold">Core Course Assignment Abstract (180-300 Words)</p>
+                <p class="small">The objective of this assignment was to demonstrate technical proficiency in designing and implementing a scalable enterprise network architecture. Utilizing Cisco Packet Tracer, I developed a comprehensive network topology that integrated subnetting strategies, VLAN configurations, and IP addressing schemes to optimize traffic flow and security. This piece is a critical component of my portfolio because it provides tangible proof of my 'Layer 1 and Layer 2' troubleshooting capabilities—a core requirement for the Help Desk Technician role I am targeting...</p>
+                <p class="text-secondary small"><em>[Assignment Statement & Source Deliverable Work File Embedded Securely in Project Archive Package]</em></p>
+            </div>
+
+            <div class="card p-4 bg-white">
+                <h4 class="fw-bold text-dark">Artifact 2: Identity & Access Management Strategy (ITS3104)</h4>
+                <p class="text-muted small fw-semibold">Core Course Assignment Abstract (180-300 Words)</p>
+                <p class="small">This project focused on the strategic implementation of Identity and Access Management (IAM) and robust access control mechanisms. The objective was to analyze an enterprise environment, identify potential vulnerabilities in user authentication, and develop a comprehensive security plan that aligned with industry best practices. This artifact is exceptionally relevant to my career goal in government IT because it demonstrates my mastery of data privacy and 'Clearable' status requirements...</p>
+                <p class="text-secondary small"><em>[Assignment Statement & Source Deliverable Work File Embedded Securely in Project Archive Package]</em></p>
+            </div>
+
+            <div class="card p-4 bg-white">
+                <h4 class="fw-bold text-dark">Artifact 3: Relational Database Optimization Schema (ITS2110)</h4>
+                <p class="text-muted small fw-semibold">Core Course Assignment Abstract (180-300 Words)</p>
+                <p class="small">The objective of this high-stakes assignment was to design, normalize, and implement a relational database system from the ground up. I utilized SQL to create complex queries and data models that ensured data integrity and efficient information retrieval for a simulated business environment. This piece is strategically relevant to my goal of becoming a ServiceNow Help Desk Specialist. ServiceNow is an industry-standard platform built on a massive, specialized database; therefore, a deep understanding of data structures is vital for effective incident management...</p>
+                <p class="text-secondary small"><em>[Assignment Statement & Source Deliverable Work File Embedded Securely in Project Archive Package]</em></p>
+            </div>
+
+            <div class="card p-4 bg-white">
+                <h4 class="fw-bold text-dark">Artifact 4: Enterprise IT Project Lifecycle Plan (ITS4011)</h4>
+                <p class="text-muted small fw-semibold">Core Course Assignment Abstract (180-300 Words)</p>
+                <p class="small">In this assignment, I applied project management frameworks (such as Agile and Waterfall) to plan a comprehensive IT initiative, focusing on resource allocation, risk assessment, and stakeholder communication. The objective was to ensure the successful delivery of a technical project within scope and budget constraints. This piece is highly relevant because it showcases my 'big-picture' understanding of IT operations. While I am entering the industry as a Help Desk Technician, this artifact proves my readiness for upward mobility...</p>
+                <p class="text-secondary small"><em>[Assignment Statement & Source Deliverable Work File Embedded Securely in Project Archive Package]</em></p>
+            </div>
+
+            <div class="card p-4 bg-white">
+                <h4 class="fw-bold text-dark">Artifact 5: Advanced Perimeter Security & Incident Remediation (ITS4211)</h4>
+                <p class="text-muted small fw-semibold">Core Course Assignment Abstract (180-300 Words)</p>
+                <p class="small">This advanced assignment required the design and implementation of a secure network perimeter, integrating firewalls, Virtual Private Networks (VPNs), and Intrusion Detection Systems (IDS). The objective was to conduct a thorough vulnerability assessment of a simulated government network and propose a remediation plan to mitigate cyber threats. This project serves as the 'capstone' of my technical portfolio, providing definitive proof of my advanced defense competencies...</p>
+                <p class="text-secondary small"><em>[Assignment Statement & Source Deliverable Work File Embedded Securely in Project Archive Package]</em></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 bg-dark text-white-50 border-top border-secondary">
+        <p class="mb-0">&copy; 2026 Christopher R. Rodriguez | Information Technology Professional Portfolio</p>
+        <p class="small text-muted mb-0">Secure Static Interface deployed via GitHub Pages</p>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
